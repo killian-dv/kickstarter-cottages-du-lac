@@ -1,7 +1,7 @@
-import Map from "@/assets/map.png";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
+import Map from "/assets/image/map.png";
 
 export const PinContainer = ({
   children,
@@ -24,7 +24,7 @@ export const PinContainer = ({
   return (
     <div
       className={cn(
-        "relative group/pin z-50  cursor-pointer",
+        "relative group/pin z-50  cursor-pointer w-[80%]",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}

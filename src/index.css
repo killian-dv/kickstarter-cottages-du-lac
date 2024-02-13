@@ -1,3 +1,12 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -56,4 +65,10 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+:root {
+  --white: #ffffff;
+  --blue: #67b9f4;
+  --dark-gray: #494949;
+  --black: #262626;
 }
