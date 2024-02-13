@@ -12,21 +12,26 @@ export function History() {
 
       <div className={styles.container__histoire}>
         <div className={styles.left__side}>
-          <h3>It doesn’t have to be that way.</h3>
+          <h3>
+            Découvrez les Cottages du Lac au cœur de la nature préservée !
+          </h3>
           <p>
-            Online media is fragmented. Your news, info, and updates come from
-            countless sources. Blogs, microblogs, social networks, weather
-            alerts, webcomics, earthquake warnings, photos, RSS feeds - it’s all
-            out there in a million different places, and you’ve gotta cycle
-            through countless different apps and websites to keep up.
+            Les cottages du lac, nichés au cœur du Parc Naturel régional de la
+            Forêt d&apos;Orient, offrent une expérience authentique et
+            conviviale dans un cadre naturel préservé. Chaque cottage, tel que
+            La Canopée, L&apos;Herbier, Les Marais, Les Galets et Les Étangs,
+            possède son propre charme et est situé à seulement 100 mètres du
+            port. Ces havres de paix confortables sont idéaux pour des escapades
+            entre amis, à seulement 1h30 de Paris.
           </p>
-          <h3>It doesn’t have to be that way.</h3>
           <p>
-            Online media is fragmented. Your news, info, and updates come from
-            countless sources. Blogs, microblogs, social networks, weather
-            alerts, webcomics, earthquake warnings, photos, RSS feeds - it’s all
-            out there in a million different places, and you’ve gotta cycle
-            through countless different apps and websites to keep up.
+            En plus des activités nautiques et des balades à vélo disponibles
+            sur place, la région offre également la possibilité de visiter des
+            monuments historiques tels que le château de Vaux et la ville de
+            Troyes, ainsi que des attractions telles que Nigloland. Pour
+            Philippe Carillon, propriétaire des cottages, cet endroit a une
+            signification toute particulière, étant un lieu cher à son cœur
+            depuis son enfance.
           </p>
         </div>
         <div className={styles.right__side}>
