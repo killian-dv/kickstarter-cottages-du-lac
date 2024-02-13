@@ -52,5 +52,11 @@
       color: #c2c2c25e;
       font-weight: bold;
     }
+
+    .scroll__container {
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
   }
 }

@@ -1,3 +1,4 @@
+import styles from "@/components/Concept/Concept.module.scss";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import React, { useRef } from "react";
 
@@ -26,7 +27,7 @@ export const StickyScroll = ({ content }) => {
   ];
   return (
     <motion.div
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-0"
+      className={`h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-0 ${styles.scroll__container}`}
       ref={ref}
       style={{
         width: "100%",

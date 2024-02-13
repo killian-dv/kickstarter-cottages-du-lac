@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1200px;
-    height: auto;
+    margin: 0 auto;
+    width: min(calc(100vw - 24px), 1268px);
   }
 }
