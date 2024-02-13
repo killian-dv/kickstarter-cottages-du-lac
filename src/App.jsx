@@ -1,13 +1,17 @@
-import { History } from "@/components/History";
-import "./App.css";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
+import { History } from "./components/History/History";
+import { Concept } from "./components/Concept/Concept";
+import { Technologie } from "./components/Technologie/Technologie";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="p-4">
+    <div className={`${styles.main}`}>
       <Header />
-      <div className="px-24">
+      <div className={`${styles.container}`}>
         <History />
+        <Concept />
+        <Technologie />
       </div>
     </div>
   );
