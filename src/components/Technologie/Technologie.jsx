@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { CardTechnoViteJs } from "../CardTechno/CardTechnoViteJs/CardTechnoViteJs";
-import { CardTechnoReactJs } from "../CardTechno/CardTechnoReactJs/CardTechnoReactJs";
-import { CardTechnoThreeJs } from "../CardTechno/CardTechnoThreeJs/CardTechnoThreeJs";
 import { CardTechnoBlender } from "../CardTechno/CardTechnoBlender/CardTechnoBlender";
 import { CardTechnoLidar } from "../CardTechno/CardTechnoLidar/CardTechnoLidar";
+import { CardTechnoReactJs } from "../CardTechno/CardTechnoReactJs/CardTechnoReactJs";
+import { CardTechnoThreeJs } from "../CardTechno/CardTechnoThreeJs/CardTechnoThreeJs";
+import { CardTechnoViteJs } from "../CardTechno/CardTechnoViteJs/CardTechnoViteJs";
 import styles from "./Technologie.module.scss";
 
 export function Technologie() {
-  const [isViteJsActive, setIsViteJsActive] = useState(true);
+  const [isViteJsActive, setIsViteJsActive] = useState(false);
   const [isReactJsActive, setIsReactJsActive] = useState(false);
   const [isThreeJsActive, setIsThreeJsActive] = useState(false);
   const [isBlenderActive, setIsBlenderActive] = useState(false);
@@ -47,12 +47,11 @@ export function Technologie() {
 
   const closeCardBlender = () => {
     setIsBlenderActive(false);
-  }
+  };
 
   const closeCardLidar = () => {
     setIsLidarActive(false);
-  }
-
+  };
 
   return (
     <>
@@ -115,7 +114,10 @@ export function Technologie() {
       <CardTechnoViteJs isActive={isViteJsActive} onClose={closeCardVite} />
       <CardTechnoReactJs isActive={isReactJsActive} onClose={closeCardReact} />
       <CardTechnoThreeJs isActive={isThreeJsActive} onClose={closeCardThree} />
-      <CardTechnoBlender isActive={isBlenderActive} onClose={closeCardBlender} />
+      <CardTechnoBlender
+        isActive={isBlenderActive}
+        onClose={closeCardBlender}
+      />
       <CardTechnoLidar isActive={isLidarActive} onClose={closeCardLidar} />
     </>
   );

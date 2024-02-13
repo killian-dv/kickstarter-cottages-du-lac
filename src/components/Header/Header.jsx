@@ -1,4 +1,5 @@
-import styles from "./Header.module.scss"; // Importez vos styles Sass
+import CountUp from "react-countup";
+import styles from "./Header.module.scss";
 
 export function Header() {
   return (
@@ -55,20 +56,26 @@ export function Header() {
         <div className={styles.info__container}>
           <div className={styles.info__container__child}>
             <div className={`${styles.info__item} ${styles.first}`}>
-              <p>24 356€</p>
-              <span>Objectif de 100000 €</span>
+              <CountUp
+                start={0}
+                end={3732}
+                duration={3}
+                separator=" "
+                suffix=" €"
+              />
+              <p>Objectif de 100000 €</p>
             </div>
           </div>
           <div className={styles.info__container__child}>
             <div className={styles.info__item}>
-              <p>2 461</p>
-              <span>Contributeurs</span>
+              <CountUp start={0} end={2461} duration={3} />
+              <p>Contributeurs</p>
             </div>
           </div>
           <div className={styles.info__container__child}>
             <div className={styles.info__item}>
-              <p>22</p>
-              <span>Jours avant la fin</span>
+              <CountUp start={0} end={22} duration={3} />
+              <p>Jours avant la fin</p>
             </div>
           </div>
           <div className={styles.info__container__child}>
