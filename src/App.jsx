@@ -6,14 +6,14 @@ import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className={`${styles.main}`}>
-      <Header />
-      <div className={`${styles.container}`}>
-        <History />
-        <Concept />
-        <Technologie />
+      <div className={`${styles.main}`}>
+        <Header />
+        <div className={`${styles.container}`}>
+          <History />
+          <Concept />
+          <Technologie />
+        </div>
       </div>
-    </div>
   );
 }
 
