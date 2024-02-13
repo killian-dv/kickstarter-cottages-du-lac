@@ -32,10 +32,10 @@ export function History() {
         <div className={styles.right__side}>
           <PinContainer
             title="Cottages du Lac"
-            href="#"
-            className={styles.pin__container}
+            href="https://twitter.com/mannupaaji"
+            className="w-full h-full"
           >
-            <div className={styles.pin__content}></div>
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-[20rem] aspect-square"></div>
           </PinContainer>
         </div>
       </div>
