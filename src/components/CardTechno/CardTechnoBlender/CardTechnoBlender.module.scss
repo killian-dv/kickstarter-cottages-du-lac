@@ -1,0 +1,71 @@
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(1000px) rotateX(-14deg)
+    rotateY(81deg) rotateZ(25deg) scale(0.5);
+
+  width: 1100px;
+  height: 600px;
+  background: linear-gradient(150deg, #ffd3a6 0%, #ea7600 100%);
+
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  padding: 6rem;
+
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s cubic-bezier(0.77, 0.01, 0.38, 0.99);
+
+  .logo {
+    width: 13rem;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  p {
+    width: 700px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+  }
+  .close__button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: none;
+    border: 2px solid var(--white);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      position: relative;
+      width: 2rem;
+    }
+  }
+}
+.active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, -50%) perspective(1000px) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) scale(1);
+}
