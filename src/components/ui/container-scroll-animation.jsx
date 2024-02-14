@@ -147,7 +147,8 @@ export const Card = ({ rotate, scale, translate }) => {
           </small>
         </div>
         <a
-          href="#"
+          href="https://sae501-belvedere.vercel.app/"
+          target="blank"
           style={{
             zIndex: 1,
             padding: "0.5rem 2rem",

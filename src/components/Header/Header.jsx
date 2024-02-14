@@ -47,7 +47,7 @@ export function Header() {
       <div className={`${styles.text}`}>
         <h1>Trouver le meilleur endroit pour passer du bon temps</h1>
         <small>Organisé par Le Belvédère</small>
-        <a href="#" className={`${styles.link}`}>
+        <a href="https://sae501-belvedere.vercel.app/" target="blank" className={`${styles.link}`}>
           Découvrir
         </a>
       </div>
