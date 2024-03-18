@@ -8,30 +8,31 @@ export function History() {
         <h2>L’histoire</h2>
         <span className={styles.divider}></span>
       </div>
-      <small>Découvrez comment ce projet à vu le jour</small>
+      <small>Découvrez comment notre startup à vu le jour</small>
 
       <div className={styles.container__histoire}>
         <div className={styles.left__side}>
           <h3>
-            Découvrez les Cottages du Lac au cœur de la nature préservée !
+            Découvrez EBK Immersion : Explorez vos vacances avant de les vivre !
           </h3>
           <p>
-            Les cottages du lac, nichés au cœur du Parc Naturel régional de la
-            Forêt d&apos;Orient, offrent une expérience authentique et
-            conviviale dans un cadre naturel préservé. Chaque cottage, tel que
-            La Canopée, L&apos;Herbier, Les Marais, Les Galets et Les Étangs,
-            possède son propre charme et est situé à seulement 100 mètres du
-            port. Ces havres de paix confortables sont idéaux pour des escapades
-            entre amis, à seulement 1h30 de Paris.
+            Rappelez-vous cette fois où votre location de rêve sur Airbnb ne
+            correspondait pas du tout à ce que vous aviez vu en ligne ? C'est la
+            malheureuse aventure qui nous est arrivée en réservant un logement
+            sur Airbnb pour nos vacances. Les pièces étaient plus petites, la
+            piscine aussi, l'agencement de la cuisine n'était pas pratique...
+            C'est en revenant de ces vacances que nous avons eu l'idée de créer
+            EBK Immersion, une startup qui propose à ses clients la modélisation
+            du site et de ses alentours, ainsi que les visualisations 3D des
+            logements de vacances.
           </p>
           <p>
-            En plus des activités nautiques et des balades à vélo disponibles
-            sur place, la région offre également la possibilité de visiter des
-            monuments historiques tels que le château de Vaux et la ville de
-            Troyes, ainsi que des attractions telles que Nigloland. Pour
-            Philippe Carillon, propriétaire des cottages, cet endroit a une
-            signification toute particulière, étant un lieu cher à son cœur
-            depuis son enfance.
+            Grâce à des technologies de réalité virtuelle et de modélisation 3D
+            avancées, explorez chaque coin de votre logement de vacances,
+            visualisez son agencement, ses équipements, et même l'ambiance qui y
+            règne. Fini les mauvaises surprises à votre arrivée ! De plus, grâce
+            à notre intégration de commerces locaux, préparez votre séjour de
+            manière complète et immersive.
           </p>
         </div>
         <div className={styles.right__side}>
