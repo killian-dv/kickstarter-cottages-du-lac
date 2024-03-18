@@ -11,7 +11,7 @@ export function Objectif({ percentage }) {
 
   return (
     <>
-      <div className={styles.objectif}>
+      <div id="objectifs" className={styles.objectif}>
         <div className={styles.container__objectif}>
           <div className={styles.title__container}>
             <h2>Objectifs</h2>

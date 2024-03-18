@@ -3,7 +3,7 @@ import styles from "./History.module.scss";
 
 export function History() {
   return (
-    <div className={styles.history}>
+    <div id="histoire" className={styles.history}>
       <div className={styles.title__container}>
         <h2>L’histoire</h2>
         <span className={styles.divider}></span>

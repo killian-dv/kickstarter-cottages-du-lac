@@ -55,7 +55,7 @@ export function Technologie() {
 
   return (
     <>
-      <div className={styles.technologie}>
+      <div id="technologies" className={styles.technologie}>
         <div className={styles.title__container}>
           <h2>Technologies</h2>
           <span className={styles.divider}></span>
