@@ -1,7 +1,6 @@
-import styles from "./CardTechnoLidar.module.scss";
+import styles from "./CardTechnoMatterport.module.scss";
 
-export function CardTechnoLidar({ isActive, onClose }) {
-
+export function CardTechnoMatterport({ isActive, onClose }) {
   const hideCard = () => {
     onClose();
   };
@@ -9,7 +8,11 @@ export function CardTechnoLidar({ isActive, onClose }) {
 
   return (
     <div className={cardClassName}>
-      <img className={`${styles.logo}`} src="/assets/image/lidar.png" alt="" />
+      <img
+        className={`${styles.logo}`}
+        src="/assets/image/matterport.png"
+        alt=""
+      />
 
       <p>
         Online media is fragmented. Your news, info, and updates come from

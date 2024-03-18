@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CardTechnoBlender } from "../CardTechno/CardTechnoBlender/CardTechnoBlender";
-import { CardTechnoLidar } from "../CardTechno/CardTechnoLidar/CardTechnoLidar";
+import { CardTechnoMatterport } from "../CardTechno/CardTechnoMatterport/CardTechnoMatterport";
 import { CardTechnoReactJs } from "../CardTechno/CardTechnoReactJs/CardTechnoReactJs";
 import { CardTechnoThreeJs } from "../CardTechno/CardTechnoThreeJs/CardTechnoThreeJs";
 import { CardTechnoViteJs } from "../CardTechno/CardTechnoViteJs/CardTechnoViteJs";
@@ -11,7 +11,7 @@ export function Technologie() {
   const [isReactJsActive, setIsReactJsActive] = useState(false);
   const [isThreeJsActive, setIsThreeJsActive] = useState(false);
   const [isBlenderActive, setIsBlenderActive] = useState(false);
-  const [isLidarActive, setIsLidarActive] = useState(false);
+  const [isMatterportActive, setIsMatterportActive] = useState(false);
 
   const showCardVite = () => {
     setIsViteJsActive(true);
@@ -29,8 +29,8 @@ export function Technologie() {
     setIsBlenderActive(true);
   };
 
-  const showCardLidar = () => {
-    setIsLidarActive(true);
+  const showCardMatterport = () => {
+    setIsMatterportActive(true);
   };
 
   const closeCardVite = () => {
@@ -49,8 +49,8 @@ export function Technologie() {
     setIsBlenderActive(false);
   };
 
-  const closeCardLidar = () => {
-    setIsLidarActive(false);
+  const closeCardMatterport = () => {
+    setIsMatterportActive(false);
   };
 
   return (
@@ -101,10 +101,10 @@ export function Technologie() {
                 alt=""
               />
             </div>
-            <div className={`${styles.card}`} onClick={showCardLidar}>
+            <div className={`${styles.card}`} onClick={showCardMatterport}>
               <img
                 className={`${styles.img}`}
-                src="/assets/image/lidar.png"
+                src="/assets/image/matterport.png"
                 alt=""
               />
             </div>
@@ -118,7 +118,10 @@ export function Technologie() {
         isActive={isBlenderActive}
         onClose={closeCardBlender}
       />
-      <CardTechnoLidar isActive={isLidarActive} onClose={closeCardLidar} />
+      <CardTechnoMatterport
+        isActive={isMatterportActive}
+        onClose={closeCardMatterport}
+      />
     </>
   );
 }
