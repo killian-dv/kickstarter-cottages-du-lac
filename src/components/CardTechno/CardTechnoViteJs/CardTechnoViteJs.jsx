@@ -1,7 +1,6 @@
 import styles from "./CardTechnoViteJs.module.scss";
 
 export function CardTechnoViteJs({ isActive, onClose }) {
-
   const hideCard = () => {
     onClose();
   };
@@ -12,11 +11,15 @@ export function CardTechnoViteJs({ isActive, onClose }) {
       <img className={`${styles.logo}`} src="/assets/image/vitejs.png" alt="" />
 
       <p>
-        Online media is fragmented. Your news, info, and updates come from
-        countless sources. Blogs, microblogs, social networks, weather alerts,
-        webcomics, earthquake warnings, photos, RSS feeds - it’s all out there
-        in a million different places, and you’ve gotta cycle through countless
-        different apps and websites to keep up.
+        Vite.js est un outil de développement rapide et moderne pour la
+        construction d'applications web légères et performantes. Basé sur la
+        technologie JavaScript, Vite.js offre une expérience de développement
+        fluide grâce à sa compilation rapide des fichiers et à son serveur de
+        développement intégré. Sa prise en charge native des modules ES6 permet
+        une gestion efficace des dépendances, tandis que sa configuration
+        minimaliste simplifie le processus de développement. Avec Vite.js, la
+        création d'applications web devient rapide, agréable et hautement
+        optimisée.
       </p>
 
       <button className={`${styles.close__button}`} onClick={hideCard}>

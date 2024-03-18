@@ -1,7 +1,6 @@
 import styles from "./CardTechnoBlender.module.scss";
 
 export function CardTechnoBlender({ isActive, onClose }) {
-
   const hideCard = () => {
     onClose();
   };
@@ -9,14 +8,22 @@ export function CardTechnoBlender({ isActive, onClose }) {
 
   return (
     <div className={cardClassName}>
-      <img className={`${styles.logo}`} src="/assets/image/blender.png" alt="" />
+      <img
+        className={`${styles.logo}`}
+        src="/assets/image/blender.png"
+        alt=""
+      />
 
       <p>
-        Online media is fragmented. Your news, info, and updates come from
-        countless sources. Blogs, microblogs, social networks, weather alerts,
-        webcomics, earthquake warnings, photos, RSS feeds - it’s all out there
-        in a million different places, and you’ve gotta cycle through countless
-        different apps and websites to keep up.
+        Blender est un logiciel de modélisation, d'animation et de rendu 3D
+        libre et open-source. Doté d'une suite complète d'outils de création,
+        Blender offre une flexibilité incomparable pour la réalisation de
+        projets 3D, qu'il s'agisse de films d'animation, d'effets visuels, de
+        jeux vidéo ou de modèles architecturaux. Avec sa communauté dynamique et
+        son développement actif, Blender continue d'évoluer pour répondre aux
+        besoins des artistes et des développeurs du monde entier, faisant de lui
+        un choix privilégié pour la création de contenus 3D de qualité
+        professionnelle.
       </p>
 
       <button className={`${styles.close__button}`} onClick={hideCard}>
