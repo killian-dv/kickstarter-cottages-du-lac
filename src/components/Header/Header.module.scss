@@ -59,13 +59,26 @@
         list-style: none;
         li {
           a {
+            position: relative;
             text-decoration: none;
             color: #fff;
             font-size: 1.2rem;
             font-weight: 500;
             transition: all 0.3s ease;
-            &:hover {
-              color: #000;
+
+            &::before {
+              position: absolute;
+              content: "";
+              display: block;
+              height: 3px;
+              left: 0;
+              right: 100%;
+              bottom: -4px;
+              background-color: var(--blue);
+              transition: all 0.5s ease;
+            }
+            &:hover::before {
+              right: 0;
             }
           }
         }
