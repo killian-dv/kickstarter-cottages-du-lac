@@ -31,7 +31,7 @@ const people = [
 export function Equipe() {
   return (
     <>
-      <div className={styles.technologie}>
+      <div id="equipe" className={styles.technologie}>
         <div className={styles.title__container}>
           <h2>Equipe</h2>
           <span className={styles.divider}></span>

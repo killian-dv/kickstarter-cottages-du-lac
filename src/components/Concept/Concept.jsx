@@ -28,12 +28,12 @@ const content = [
 
 export function Concept() {
   return (
-    <div className={styles.concept}>
+    <div id="poc" className={styles.concept}>
       <div className={styles.title__container}>
         <h2>Preuve de Concept</h2>
         <span className={styles.divider}></span>
       </div>
-      <small>Voici les étapes fondamentales du projet</small>
+      <small>Voici un poc pour Les Cottages du Lac</small>
 
       <div className={styles.container__concept}>
         <span className={styles.projet}>PROJET</span>

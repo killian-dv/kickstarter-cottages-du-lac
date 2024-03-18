@@ -25,27 +25,27 @@ export function Header() {
           <nav>
             <ul className={`${styles.flex}`}>
               <li>
-                <a href="" className={`${styles.hoverUnderline}`}>
+                <a href="#histoire" className={`${styles.hoverUnderline}`}>
                   L&apos;Histoire
                 </a>
               </li>
               <li>
-                <a href="" className={`${styles.hoverUnderline}`}>
+                <a href="#poc" className={`${styles.hoverUnderline}`}>
                   Preuve de Concept
                 </a>
               </li>
               <li>
-                <a href="" className={`${styles.hoverUnderline}`}>
+                <a href="#technologies" className={`${styles.hoverUnderline}`}>
                   Technologies
                 </a>
               </li>
               <li>
-                <a href="" className={`${styles.hoverUnderline}`}>
+                <a href="#objectifs" className={`${styles.hoverUnderline}`}>
                   Objectifs
                 </a>
               </li>
               <li>
-                <a href="" className={`${styles.hoverUnderline}`}>
+                <a href="#equipe" className={`${styles.hoverUnderline}`}>
                   Equipe
                 </a>
               </li>
@@ -53,8 +53,7 @@ export function Header() {
           </nav>
         </div>
         <div className={`${styles.text}`}>
-          <h1>Trouver le meilleur endroit pour passer du bon temps</h1>
-          <small>Organisé par Le Belvédère</small>
+          <h1>Explorez, planifiez, profitez – sans mauvaises surprises !</h1>
           <a href="https://sae501-belvedere.vercel.app/" target="blank" className={`${styles.link}`}>
             Découvrir
           </a>
@@ -86,7 +85,7 @@ export function Header() {
                 <p>Jours avant la fin</p>
               </div>
             </div>
-            <div className={styles.info__container__child}>
+            <div className={`${styles.info__container__child} ${styles.info__link}`}>
               <a href="#" className={`${styles.link}`}>
                 Soutenir ce projet
               </a>
