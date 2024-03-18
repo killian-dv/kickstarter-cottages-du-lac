@@ -27,7 +27,7 @@ export function Objectif({ percentage }) {
               </svg>
               <div className={styles.circle__text}>
                 <span>750€</span>
-                <span>/ 1 000€</span>
+                <span>/ 100 000€</span>
               </div>
             </div>
             <div className={styles.step}>
@@ -49,8 +49,8 @@ export function Objectif({ percentage }) {
                   alt=""
                 />
                 <p>
-                  <span>2 000 €</span>What if you had one app that gave an
-                  overview of nearly everything that was happening acros{" "}
+                  <span>5 000 €</span>
+                  Ajout de la visualisation en réalité augmentée
                 </p>
               </div>
               <div className={styles.container__step}>
@@ -60,8 +60,9 @@ export function Objectif({ percentage }) {
                   alt=""
                 />
                 <p>
-                  <span>4 000 €</span>What if you had one app that gave an
-                  overview of nearly everything that was happening acros{" "}
+                  <span>45 000 €</span>
+                  Achat d'un drone avec caméra Lidar pour la modélisation 3D +
+                  passage de la formation de pilote de drone
                 </p>
               </div>{" "}
               <div className={styles.container__step}>
@@ -71,8 +72,10 @@ export function Objectif({ percentage }) {
                   alt=""
                 />
                 <p>
-                  <span>8 000 €</span>What if you had one app that gave an
-                  overview of nearly everything that was happening acros{" "}
+                  <span>100 000 €</span>
+                  Développement d’une IA pouvant modifier le style de la
+                  modélisation 3D suivant les demandes du client (low poly,
+                  réaliste...)
                 </p>
               </div>{" "}
               <div className={styles.container__step}>
@@ -82,8 +85,8 @@ export function Objectif({ percentage }) {
                   alt=""
                 />
                 <p>
-                  <span>12 000 €</span>What if you had one app that gave an
-                  overview of nearly everything that was happening acros{" "}
+                  <span>200 000 €</span>
+                  Création de notre propre plateforme de réservation de logement
                 </p>
               </div>
             </div>
