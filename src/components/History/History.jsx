@@ -1,4 +1,3 @@
-import { PinContainer } from "../ui/3d-pin";
 import styles from "./History.module.scss";
 
 export function History() {
@@ -36,13 +35,7 @@ export function History() {
           </p>
         </div>
         <div className={styles.right__side}>
-          <PinContainer
-            title="Cottages du Lac"
-            href="https://www.google.com/maps/dir/?api=1&destination={Les+Cottages+du+Belv%C3%A9d%C3%A8re,+face+au+Lac+de+la+For%C3%AAt+d'Orient,+9+Rue+des+Cottages+de+Port+Mesni,+10140+Mesnil-Saint-P%C3%A8re}"
-            className="w-full h-full"
-          >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-[20rem] aspect-square"></div>
-          </PinContainer>
+          <img src="/assets/image/history.jpg" alt="" />
         </div>
       </div>
     </div>
