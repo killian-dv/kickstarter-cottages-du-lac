@@ -33,7 +33,7 @@ export function Concept() {
         <h2>Preuve de Concept</h2>
         <span className={styles.divider}></span>
       </div>
-      <small>Voici les étapes fondamentales du projet</small>
+      <small>Voici un poc pour Les Cottages du Lac</small>
 
       <div className={styles.container__concept}>
         <span className={styles.projet}>PROJET</span>
