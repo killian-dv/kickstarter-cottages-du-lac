@@ -31,17 +31,7 @@ export function Objectif({ percentage }) {
               </div>
             </div>
             <div className={styles.step}>
-              <div className={styles.container__step}>
-                <img
-                  className={`${styles.icon}`}
-                  src="/assets/icon/check.svg"
-                  alt=""
-                />
-                <p>
-                  <span> 0 €</span>
-                  Preuve de concept
-                </p>
-              </div>
+
               <div className={styles.container__step}>
                 <img
                   className={`${styles.icon}`}

@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #3d9be9 0%, #221f90 100%);
+    background-color: #2f2f2f;
     padding: 3rem 0;
     border-radius: 2rem;
 
@@ -74,7 +74,7 @@
           z-index: 2;
           circle {
             fill: var(--white);
-            stroke: #ffd15a;
+            stroke: var(--blue);
             stroke-linecap: round;
             stroke-width: 20px;
             transform: translate(20px, 20px);
@@ -108,7 +108,7 @@
             &:first-child {
               font-size: 3rem;
               font-weight: 700;
-              color: #ffd15a;
+              color: var(--blue);
             }
             &:last-child {
               font-size: 1.5rem;
@@ -146,7 +146,7 @@
             span {
               font-size: 1.8rem;
               font-weight: bold;
-              color: #ffd15a;
+              color: var(--blue);
               margin-right: 1rem;
             }
           }

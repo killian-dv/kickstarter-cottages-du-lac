@@ -37,12 +37,11 @@
   .container__technologie {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     top: 5vh;
-    gap: 2rem;
 
     .container__top,
     .container__bottom {
@@ -54,8 +53,8 @@
 
       .card {
         cursor: pointer;
-        width: 18rem;
-        height: 18rem;
+        width: 13rem;
+        height: 13rem;
         border-radius: 20px;
         border: 1px solid #00000034;
         display: flex;
