@@ -63,8 +63,9 @@ export function Technologie() {
         <small>Toutes les technologies utilisées lors de ce projet</small>
 
         <div className={styles.container__technologie}>
-          <div className={styles.container__top}>
-            <div
+          <div className={styles.container__bottom}>
+
+          <div
               className={`${styles.card} ${styles.card__vitejs}`}
               onClick={showCardVite}
             >
@@ -84,9 +85,7 @@ export function Technologie() {
                 alt=""
               />
             </div>
-          </div>
 
-          <div className={styles.container__bottom}>
             <div className={`${styles.card}`} onClick={showCardThree}>
               <img
                 className={`${styles.img}`}
