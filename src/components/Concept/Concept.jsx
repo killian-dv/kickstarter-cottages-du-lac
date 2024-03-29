@@ -8,11 +8,15 @@ export function Concept() {
         <h2>Preuve de Concept</h2>
         <span className={styles.divider}></span>
       </div>
-      <small>Voici un poc pour Les Cottages du Lac</small>
+      {/* <small>Voici un poc pour Les Cottages du Lac</small> */}
 
       <div className={styles.container__concept}>
-        <span className={styles.projet}>PROJET</span>
-        <ContainerScroll
+        <img src="/assets/image/mockup.png" alt="mockup" />
+
+        <a href="https://cottages-belvedere.vercel.app/" target="_blank">
+          Visiter le site
+        </a>
+        {/* <ContainerScroll
           titleComponent={
             <>
               <h1 className="text-4xl font-semibold text-black dark:text-white">
@@ -23,8 +27,7 @@ export function Concept() {
               </h1>
             </>
           }
-        />
-
+        /> */}
       </div>
     </div>
   );

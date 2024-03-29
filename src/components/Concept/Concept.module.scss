@@ -43,6 +43,36 @@
     width: 100%;
     top: 5vh;
 
+    img {
+      width: 70vw;
+    }
+
+    a {
+      display: block;
+      width: 280px;
+      height: 50px;
+      border-radius: 500px;
+      background-color: var(--blue);
+      border: 2px solid var(--blue);
+      color: var(--black);
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+      text-decoration: none;
+      margin: 2rem 0;
+      color: var(--white);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background-color: transparent;
+        color: var(--black);
+      }
+    }
+
     .projet {
       position: absolute;
       top: 30%;
