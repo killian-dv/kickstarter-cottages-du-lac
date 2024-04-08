@@ -26,12 +26,11 @@ export function Objectif({ percentage }) {
                 <circle cx={"130px"} cy={"130px"} r={"130px"}></circle>
               </svg>
               <div className={styles.circle__text}>
-                <span>750€</span>
+                <span>3 732€</span>
                 <span>/ 100 000€</span>
               </div>
             </div>
             <div className={styles.step}>
-
               <div className={styles.container__step}>
                 <img
                   className={`${styles.icon}`}
