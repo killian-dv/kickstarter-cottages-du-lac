@@ -1,11 +1,11 @@
-import styles from "./Equipe.module.scss";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
+import styles from "./Equipe.module.scss";
 
 const people = [
   {
     id: 1,
     name: "Killian David",
-    designation: "Développeur Web Full Stack",
+    designation: "Communiquant marketing",
     image:
       "https://media.licdn.com/dms/image/D4E03AQH2vfesN1VoWw/profile-displayphoto-shrink_800_800/0/1678713830650?e=1713398400&v=beta&t=SdoqASX8KzlO47K5iCCp2wRsd84_5rJAHk-LGt6rECM",
   },
@@ -13,19 +13,17 @@ const people = [
   {
     id: 2,
     name: "Enzo Cosson",
-    designation: "Développeur Web Full Stack",
+    designation: "Développeur Three.js et modélisateur 3D",
     image:
       "https://media.licdn.com/dms/image/D4E03AQENUjns6h776A/profile-displayphoto-shrink_400_400/0/1673187017917?e=1713398400&v=beta&t=dE5mvM-Fl-lWyOB2cF5bc-o3tPmW0A3oobjV0wQ9wWg",
   },
   {
     id: 3,
     name: "Benjamin Frenal",
-    designation: "Développeur Web Full Stack",
+    designation: "Scanneur Matterport",
     image:
       "https://media.licdn.com/dms/image/D4E03AQHw2VBWOlQG-g/profile-displayphoto-shrink_800_800/0/1704637451271?e=1713398400&v=beta&t=1S4lET05_cB0BK090u02X7PAfskM9lL6POJ4BOTrB7s",
   },
-
- 
 ];
 
 export function Equipe() {
